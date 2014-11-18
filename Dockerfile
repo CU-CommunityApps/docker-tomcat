@@ -11,3 +11,4 @@ RUN \
   apt-get install -y tomcat7 && \
   rm -rf /var/lib/apt/lists/*
   
+EXPOSE 8080
