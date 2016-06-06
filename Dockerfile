@@ -11,7 +11,7 @@ ADD appdynamics.tar /usr/share
 
 RUN \
   apt-get update && \
-  apt-get install -y tomcat7 && \
+  apt-get install -y tomcat7 multitail && \
   rm -rf /var/lib/apt/lists/* && \
   chown -R tomcat7:tomcat7 /usr/share/appdynamics
 
